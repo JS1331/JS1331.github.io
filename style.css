@@ -25,21 +25,29 @@ body {
   object-fit: cover; /* Esto asegura que la imagen cubra todo el área del contenedor */
 }
 
-.introduccion {
+.introduction {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
   text-align: center;
-  margin-top: 50px;
 }
 
-.introduccion h1 {
+.introduction h1 {
   font-size: 2rem;
-  color: #333;
+  margin-bottom: 20px;
 }
 
-.introduccion p {
+.introduction p {
   font-size: 1.1rem;
-  color: #555;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.5;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
 }
 
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 60px auto;
+  width: 80%;
+}
