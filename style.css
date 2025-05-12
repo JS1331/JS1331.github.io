@@ -24,3 +24,22 @@ body {
   height: 100%;
   object-fit: cover; /* Esto asegura que la imagen cubra todo el área del contenedor */
 }
+
+.introduccion {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.introduccion h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.introduccion p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
